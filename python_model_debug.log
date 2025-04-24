@@ -1,0 +1,54 @@
+Script started
+Got symptoms from stdin: I have been experiencing itching, vomiting, fatigue, and weight loss. My fever is high and my skin has turned yellow. My urine is dark and I have been experiencing abdominal pain.
+Script directory: C:\XAMPP\htdocs\Pretrained
+Loading datasets from: C:\XAMPP\htdocs\Pretrained\csv_datasets/Train.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/kenyan_hospitals.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/medications.csv
+Error loading datasets: [Errno 2] No such file or directory: 'C:\\XAMPP\\htdocs\\Pretrained\\csv_datasets/Train.csv'
+Script started
+Got symptoms from stdin: I have been experiencing itching, vomiting, fatigue, and weight loss. My fever is high and my skin has turned yellow. My urine is dark and I have been experiencing abdominal pain.
+Script directory: C:\XAMPP\htdocs\Pretrained
+Loading datasets from: C:\XAMPP\htdocs\Pretrained\csv_datasets/Train_data.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/kenyan_hospitals.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/medications.csv
+Successfully loaded datasets
+Diagnosis: Jaundice, Confidence: 100.00000000000003
+Found 3 matching hospitals
+Error in processing: 'disease'
+Script started
+Got symptoms from stdin: I have lost my appetite and have noticed a significant weight loss. I have abdominal pain, especially in the area of my stomach and intestines. I am concerned about my health.
+Script directory: C:\XAMPP\htdocs\Pretrained
+Loading datasets from: C:\XAMPP\htdocs\Pretrained\csv_datasets/Train_data.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/kenyan_hospitals.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/medications.csv
+Successfully loaded datasets
+Diagnosis: Typhoid, Confidence: 100.00000000000003
+Found 3 matching hospitals
+Error in get_relevant_medications: 'disease'
+Found 1 relevant medications
+Preparing to output JSON result
+Successfully output JSON result
+Script started
+Got symptoms from stdin: I have been having severe itching, vomiting, and fatigue. I have also lost weight and have a high fever. My skin has turned yellow and my urine is dark. I am also experiencing abdominal pain
+Script directory: C:\XAMPP\htdocs\Pretrained
+Loading datasets from: C:\XAMPP\htdocs\Pretrained\csv_datasets/Train_data.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/kenyan_hospitals.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/medications.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/disease_advice.csv
+Successfully loaded datasets
+Diagnosis: Jaundice, Confidence: 100.0
+Found 3 matching hospitals
+Found 2 relevant medications
+Preparing to output JSON result
+Successfully output JSON result
+Script started
+Got symptoms from stdin: am feeling cold and i also have a headache  and shaking on my body
+Script directory: C:\XAMPP\htdocs\Pretrained
+Loading datasets from: C:\XAMPP\htdocs\Pretrained\csv_datasets/Train_data.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/kenyan_hospitals.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/medications.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/disease_advice.csv
+Successfully loaded datasets
+Diagnosis: Common Cold, Confidence: 45.55726999690718
+Found 3 matching hospitals
+Found 3 relevant medications
+Preparing to output JSON result
+Successfully output JSON result
+Script started
+Got symptoms from command line: test.json
+Script directory: C:\XAMPP\htdocs\Pretrained
+Loading datasets from: C:\XAMPP\htdocs\Pretrained\csv_datasets/Train_data.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/kenyan_hospitals.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/medications.csv, C:\XAMPP\htdocs\Pretrained\csv_datasets/disease_advice.csv
+Successfully loaded datasets
+Diagnosis: Psoriasis, Confidence: 0.0
+Found 3 matching hospitals
+Found 3 relevant medications
+Preparing to output JSON result
+Successfully output JSON result

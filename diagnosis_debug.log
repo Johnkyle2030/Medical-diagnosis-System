@@ -1,0 +1,92 @@
+[2025-03-11 04:16:07] Script started
+[2025-03-11 04:16:07] Form submitted with session ID: 21
+[2025-03-11 04:16:07] Database connection successful
+[2025-03-11 04:16:07] User data retrieved for ID: 21
+[2025-03-11 04:16:07] Symptoms: I've been itchy and have been throwing up. Along with losing weight, I'm also really exhausted. My skin has turned yellow, and my fever is high. My stomach has also been hurting recently., Duration: 1_3_days
+[2025-03-11 04:16:07] Executing command: python3 diagnosis_model.py ^"I^'ve been itchy and have been throwing up. Along with losing weight, I^'m also really exhausted. My skin has turned yellow, and my fever is high. My stomach has also been hurting recently.^"
+[2025-03-11 04:16:09] Python script output: No output
+[2025-03-11 04:16:09] Failed to parse JSON from Python script output
+[2025-03-11 04:23:00] Script started
+[2025-03-11 04:23:00] Form submitted with session ID: 21
+[2025-03-11 04:23:00] Database connection successful
+[2025-03-11 04:23:00] User data retrieved for ID: 21
+[2025-03-11 04:23:00] Symptoms: The itch, the nausea, and the weariness have been bothering me. In addition, I developed a fever and lost weight. My pee is black, and I've developed a yellow rash. Additionally, I've had stomach ache., Duration: 1_3_days
+[2025-03-11 04:23:00] Saved symptoms to temporary file: C:\Users\kyle2030\AppData\Local\Temp\sym4075.tmp
+[2025-03-11 04:23:01] Python script return value: 9009
+[2025-03-11 04:23:01] Python script errors: Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+
+[2025-03-11 04:23:01] Python script output: No output
+[2025-03-11 04:23:01] Failed to parse JSON from Python script output
+[2025-03-12 06:44:29] Script started
+[2025-03-12 06:44:29] Form submitted with session ID: 21
+[2025-03-12 06:44:29] Database connection successful
+[2025-03-12 06:44:29] User data retrieved for ID: 21
+[2025-03-12 06:44:29] Symptoms: I have been experiencing itching, vomiting, fatigue, and weight loss. My fever is high and my skin has turned yellow. My urine is dark and I have been experiencing abdominal pain., Duration: 1_3_days
+[2025-03-12 06:44:29] Saved symptoms to temporary file: C:\Users\kyle2030\AppData\Local\Temp\sym5B19.tmp
+[2025-03-12 06:46:09] Python script return value: 1
+[2025-03-12 06:46:09] Python script output: {"error": "Could not load datasets: [Errno 2] No such file or directory: 'C:\\\\XAMPP\\\\htdocs\\\\Pretrained\\\\csv_datasets/Train.csv'"}
+
+[2025-03-12 06:46:09] Successfully parsed diagnosis result: {"error":"Could not load datasets: [Errno 2] No such file or directory: 'C:\\\\XAMPP\\\\htdocs\\\\Pretrained\\\\csv_datasets\/Train.csv'"}
+[2025-03-12 06:46:09] Error: Column 'condition_name' cannot be null
+[2025-03-12 07:21:39] Script started
+[2025-03-12 07:21:39] Form submitted with session ID: 21
+[2025-03-12 07:21:39] Database connection successful
+[2025-03-12 07:21:39] User data retrieved for ID: 21
+[2025-03-12 07:21:39] Symptoms: I have been experiencing itching, vomiting, fatigue, and weight loss. My fever is high and my skin has turned yellow. My urine is dark and I have been experiencing abdominal pain., Duration: 4_7_days
+[2025-03-12 07:21:39] Saved symptoms to temporary file: C:\Users\kyle2030\AppData\Local\Temp\sym6064.tmp
+[2025-03-12 07:22:13] Python script return value: 0
+[2025-03-12 07:22:13] Python script output: {"diagnosis": "Unknown", "confidence": "0%", "condition_category": "Unknown", "hospitals": [], "medications": [{"name": "Error in diagnosis", "dosage": "N/A", "instructions": "Please try again or contact support", "frequency": "N/A", "side_effects": "N/A"}], "advice": "An error occurred during diagnosis: 'disease'. Please try again or consult a doctor."}
+
+[2025-03-12 07:22:13] Successfully parsed diagnosis result: {"diagnosis":"Unknown","confidence":"0%","condition_category":"Unknown","hospitals":[],"medications":[{"name":"Error in diagnosis","dosage":"N\/A","instructions":"Please try again or contact support","frequency":"N\/A","side_effects":"N\/A"}],"advice":"An error occurred during diagnosis: 'disease'. Please try again or consult a doctor."}
+[2025-03-12 07:22:13] Diagnosis stored with ID: 1
+[2025-03-12 07:22:13] Processing medications data
+[2025-03-12 07:22:13] Medications data processed
+[2025-03-12 07:22:13] Redirecting to diagnosis_results.php?id=1
+[2025-03-12 08:18:48] Script started
+[2025-03-12 08:18:48] Form submitted with session ID: 21
+[2025-03-12 08:18:48] Database connection successful
+[2025-03-12 08:18:48] User data retrieved for ID: 21
+[2025-03-12 08:18:48] Symptoms: I have lost my appetite and have noticed a significant weight loss. I have abdominal pain, especially in the area of my stomach and intestines. I am concerned about my health., Duration: 1_3_days
+[2025-03-12 08:18:48] Saved symptoms to temporary file: C:\Users\kyle2030\AppData\Local\Temp\symB4A3.tmp
+[2025-03-12 08:19:23] Python script return value: 0
+[2025-03-12 08:19:23] Python script output: {"diagnosis": "Typhoid", "confidence": "100.00%", "condition_category": "Acute", "hospitals": [{"name": "Aga Khan University Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Orthopedics", "contact": "+254 20 366 2000", "rating": 4.7, "distance": "196 km"}, {"name": "Nairobi Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Orthopedics;Dermatology", "contact": "+254 20 284 5000", "rating": 4.6, "distance": "155 km"}, {"name": "Kenyatta National Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Pediatrics", "contact": "+254 20 2726300", "rating": 4.5, "distance": "195 km"}], "medications": [{"name": "Consult a doctor", "dosage": "As prescribed", "instructions": "Seek professional medical advice for proper medication", "frequency": "As directed", "side_effects": "Medications should only be taken under medical supervision"}], "advice": "\n1. Your symptoms suggest a possible acute condition.\n2. It's recommended to follow up with a healthcare provider for confirmation.\n3. Rest and stay hydrated while awaiting professional medical advice.\n4. Take medications only as prescribed by a healthcare professional.\n5. Monitor your symptoms and seek emergency care if they worsen significantly.\n            "}
+
+[2025-03-12 08:19:23] Successfully parsed diagnosis result: {"diagnosis":"Typhoid","confidence":"100.00%","condition_category":"Acute","hospitals":[{"name":"Aga Khan University Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Orthopedics","contact":"+254 20 366 2000","rating":4.7,"distance":"196 km"},{"name":"Nairobi Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Orthopedics;Dermatology","contact":"+254 20 284 5000","rating":4.6,"distance":"155 km"},{"name":"Kenyatta National Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Pediatrics","contact":"+254 20 2726300","rating":4.5,"distance":"195 km"}],"medications":[{"name":"Consult a doctor","dosage":"As prescribed","instructions":"Seek professional medical advice for proper medication","frequency":"As directed","side_effects":"Medications should only be taken under medical supervision"}],"advice":"\n1. Your symptoms suggest a possible acute condition.\n2. It's recommended to follow up with a healthcare provider for confirmation.\n3. Rest and stay hydrated while awaiting professional medical advice.\n4. Take medications only as prescribed by a healthcare professional.\n5. Monitor your symptoms and seek emergency care if they worsen significantly.\n            "}
+[2025-03-12 08:19:23] Diagnosis stored with ID: 2
+[2025-03-12 08:19:23] Processing hospitals data
+[2025-03-12 08:19:24] Hospitals data processed
+[2025-03-12 08:19:24] Processing medications data
+[2025-03-12 08:19:24] Medications data processed
+[2025-03-12 08:19:24] Redirecting to diagnosis_results.php?id=2
+[2025-03-12 09:31:08] Script started
+[2025-03-12 09:31:08] Form submitted with session ID: 21
+[2025-03-12 09:31:08] Database connection successful
+[2025-03-12 09:31:08] User data retrieved for ID: 21
+[2025-03-12 09:31:08] Symptoms: I have been having severe itching, vomiting, and fatigue. I have also lost weight and have a high fever. My skin has turned yellow and my urine is dark. I am also experiencing abdominal pain, Duration: 1_3_days
+[2025-03-12 09:31:08] Saved symptoms to temporary file: C:\Users\kyle2030\AppData\Local\Temp\symEDE3.tmp
+[2025-03-12 09:31:40] Python script return value: 0
+[2025-03-12 09:31:40] Python script output: {"diagnosis": "Jaundice", "confidence": "100.00%", "condition_category": "Acute", "hospitals": [{"name": "Aga Khan University Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology", "contact": "+254-20-3662000", "rating": 4.8, "distance": "Located in Nairobi"}, {"name": "Nairobi Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease", "contact": "+254-20-2845000", "rating": 4.7, "distance": "Located in Nairobi"}, {"name": "Kenyatta National Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology;Pulmonology", "contact": "+254-20-2726300", "rating": 4.5, "distance": "Located in Nairobi"}], "medications": [{"name": "Ursodeoxycholic acid", "dosage": "10-15 mg/kg daily", "instructions": "Take with food to reduce stomach upset", "frequency": "Divided into 2-3 doses per day", "side_effects": "Diarrhea, stomach pain, dizziness"}, {"name": "Cholestyramine", "dosage": "4g", "instructions": "Mix with water or juice and drink before meals", "frequency": "2-4 times daily", "side_effects": "Constipation, nausea, bloating"}], "advice": "1. Seek immediate medical attention as jaundice indicates liver dysfunction.\r\n2. Increase fluid intake to help flush toxins from your system.\r\n3. Get plenty of rest to allow your body to heal.\r\n4. Follow a low-fat diet and avoid alcohol completely.\r\n5. Follow-up with a specialist for further testing to determine the underlying cause.\r\n6. Take all prescribed medications as directed.\r\n7. Return to the hospital if you experience confusion, severe abdominal pain, or high fever."}
+
+[2025-03-12 09:31:40] Successfully parsed diagnosis result: {"diagnosis":"Jaundice","confidence":"100.00%","condition_category":"Acute","hospitals":[{"name":"Aga Khan University Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology","contact":"+254-20-3662000","rating":4.8,"distance":"Located in Nairobi"},{"name":"Nairobi Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease","contact":"+254-20-2845000","rating":4.7,"distance":"Located in Nairobi"},{"name":"Kenyatta National Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology;Pulmonology","contact":"+254-20-2726300","rating":4.5,"distance":"Located in Nairobi"}],"medications":[{"name":"Ursodeoxycholic acid","dosage":"10-15 mg\/kg daily","instructions":"Take with food to reduce stomach upset","frequency":"Divided into 2-3 doses per day","side_effects":"Diarrhea, stomach pain, dizziness"},{"name":"Cholestyramine","dosage":"4g","instructions":"Mix with water or juice and drink before meals","frequency":"2-4 times daily","side_effects":"Constipation, nausea, bloating"}],"advice":"1. Seek immediate medical attention as jaundice indicates liver dysfunction.\r\n2. Increase fluid intake to help flush toxins from your system.\r\n3. Get plenty of rest to allow your body to heal.\r\n4. Follow a low-fat diet and avoid alcohol completely.\r\n5. Follow-up with a specialist for further testing to determine the underlying cause.\r\n6. Take all prescribed medications as directed.\r\n7. Return to the hospital if you experience confusion, severe abdominal pain, or high fever."}
+[2025-03-12 09:31:40] Diagnosis stored with ID: 3
+[2025-03-12 09:31:40] Processing hospitals data
+[2025-03-12 09:31:41] Hospitals data processed
+[2025-03-12 09:31:41] Processing medications data
+[2025-03-12 09:31:41] Medications data processed
+[2025-03-12 09:31:41] Redirecting to diagnosis_results.php?id=3
+[2025-03-27 14:05:03] Script started
+[2025-03-27 14:05:03] Form submitted with session ID: 13
+[2025-03-27 14:05:03] Database connection successful
+[2025-03-27 14:05:03] User data retrieved for ID: 13
+[2025-03-27 14:05:03] Symptoms: am feeling cold and i also have a headache  and shaking on my body, Duration: 1_3_days
+[2025-03-27 14:05:03] Saved symptoms to temporary file: C:\Users\kyle2030\AppData\Local\Temp\sym7357.tmp
+[2025-03-27 14:05:36] Python script return value: 0
+[2025-03-27 14:05:36] Python script output: {"diagnosis": "Common Cold", "confidence": "45.56%", "condition_category": "Acute", "hospitals": [{"name": "Aga Khan University Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology", "contact": "+254-20-3662000", "rating": 4.8, "distance": "Located in Nairobi"}, {"name": "Nairobi Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease", "contact": "+254-20-2845000", "rating": 4.7, "distance": "Located in Nairobi"}, {"name": "Kenyatta National Hospital", "location": "Nairobi", "specialization": "General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology;Pulmonology", "contact": "+254-20-2726300", "rating": 4.5, "distance": "Located in Nairobi"}], "medications": [{"name": "Paracetamol (Acetaminophen)", "dosage": "500-1000mg", "instructions": "Take with or without food", "frequency": "Every 4-6 hours as needed", "side_effects": "Rarely causes side effects at recommended doses"}, {"name": "Pseudoephedrine", "dosage": "60mg", "instructions": "Do not take close to bedtime", "frequency": "Every 4-6 hours as needed", "side_effects": "Insomnia, nervousness, dizziness, increased blood pressure"}, {"name": "Dextromethorphan", "dosage": "15-30mg", "instructions": "Take with food or milk if stomach upset occurs", "frequency": "Every 6-8 hours as needed", "side_effects": "Dizziness, drowsiness, nausea"}], "advice": "1. Get plenty of rest to help your body fight the infection.\r\n2. Stay hydrated by drinking plenty of fluids.\r\n3. Use over-the-counter medications to relieve symptoms as needed.\r\n4. Use a humidifier or take hot showers to ease congestion.\r\n5. Gargle with salt water to soothe a sore throat.\r\n6. Wash hands frequently to prevent spreading the virus.\r\n7. Seek medical attention if symptoms last more than 10 days or are severe."}
+
+[2025-03-27 14:05:36] Successfully parsed diagnosis result: {"diagnosis":"Common Cold","confidence":"45.56%","condition_category":"Acute","hospitals":[{"name":"Aga Khan University Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology","contact":"+254-20-3662000","rating":4.8,"distance":"Located in Nairobi"},{"name":"Nairobi Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease","contact":"+254-20-2845000","rating":4.7,"distance":"Located in Nairobi"},{"name":"Kenyatta National Hospital","location":"Nairobi","specialization":"General Medicine;Cardiology;Neurology;Oncology;Orthopedics;Pediatrics;ENT;Urology;Gastroenterology;Nephrology;Dermatology;Infectious Disease;Hepatology;Pulmonology","contact":"+254-20-2726300","rating":4.5,"distance":"Located in Nairobi"}],"medications":[{"name":"Paracetamol (Acetaminophen)","dosage":"500-1000mg","instructions":"Take with or without food","frequency":"Every 4-6 hours as needed","side_effects":"Rarely causes side effects at recommended doses"},{"name":"Pseudoephedrine","dosage":"60mg","instructions":"Do not take close to bedtime","frequency":"Every 4-6 hours as needed","side_effects":"Insomnia, nervousness, dizziness, increased blood pressure"},{"name":"Dextromethorphan","dosage":"15-30mg","instructions":"Take with food or milk if stomach upset occurs","frequency":"Every 6-8 hours as needed","side_effects":"Dizziness, drowsiness, nausea"}],"advice":"1. Get plenty of rest to help your body fight the infection.\r\n2. Stay hydrated by drinking plenty of fluids.\r\n3. Use over-the-counter medications to relieve symptoms as needed.\r\n4. Use a humidifier or take hot showers to ease congestion.\r\n5. Gargle with salt water to soothe a sore throat.\r\n6. Wash hands frequently to prevent spreading the virus.\r\n7. Seek medical attention if symptoms last more than 10 days or are severe."}
+[2025-03-27 14:05:36] Diagnosis stored with ID: 5
+[2025-03-27 14:05:36] Processing hospitals data
+[2025-03-27 14:05:36] Hospitals data processed
+[2025-03-27 14:05:36] Processing medications data
+[2025-03-27 14:05:37] Medications data processed
+[2025-03-27 14:05:37] Redirecting to diagnosis_results.php?id=5
